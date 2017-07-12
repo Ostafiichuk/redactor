@@ -1,0 +1,111 @@
+body {
+	background: green;
+}
+
+header,
+footer,
+article {
+	height: 450px;
+	background-color: rgba(255, 242, 226, 0.7);
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px;
+	position: relative;
+	overflow: auto;
+	padding: 30px;
+}
+
+article {
+	height: 100px;
+}
+
+.span {
+	color: #010B2C;
+	font: 18px Arial;
+}
+
+.center,
+h1 {
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+/*Inputs*/
+
+.btn,
+.btnColor {
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 60px;
+	height: 40px;
+	background-color: red;
+	color: #FEF6E9;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.btn:hover {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+select {
+	border-radius: 10px;
+	background-color: #AC3838;
+	-webkit-box-shadow: 0 1px 1px 1px #ffffff;
+}
+
+.textarea {
+	background-color: rgba(255, 242, 226, 0.4);
+	border: 1px ridge rgba(0, 0, 0, 0.4);
+	margin: 10px 20px;
+	width: 95%;
+}
+
+.underline {
+	border: none;
+	border-bottom: 1px solid red;
+	background: none;
+}
+
+
+/*table*/
+
+#colorTb {
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	margin: auto;
+	display: none;
+}
+
+td {
+	border: 1px solid black;
+	background-size: cover;
+}
+
+#tabl td {
+	border: 1px solid black;
+}
+
+
+/*display:none*/
+
+.textareaDiv,
+.textStyle,
+main,
+.addCreate,
+.listCheck {
+	display: none;
+}
+
+
+/*h group*/
+
+h1 {
+	font-size: 26px;
+}
+
+h3 {
+	font-size: 20px;
+}
